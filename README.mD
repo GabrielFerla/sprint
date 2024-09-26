@@ -36,6 +36,8 @@ Os tempos de busca para cada método (em milissegundos) foram:
 | 100.000      | 50,34 ms         | 0,01 ms       | 0,02 ms             |
 | 500.000      | 253,89 ms        | 0,01 ms       | 0,02 ms             |
 
+![alt text](image.png)
+
 ## 🧐 Análise e Discussão
 - **Busca Sequencial**: Simples de implementar, mas o desempenho degrada rapidamente à medida que o volume de dados aumenta. Não é ideal para grandes quantidades de laudos médicos.
 - **Busca Binária**: Extremamente rápida, mas requer a ordenação dos laudos antes da busca, o que adiciona um custo extra.
