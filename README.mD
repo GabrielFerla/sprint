@@ -1,7 +1,7 @@
 # README - Sistema de Simulação de Laudos de Laparoscopia
 
 ## 📋 Introdução
-Este projeto faz parte de um trabalho acadêmico focado no desenvolvimento de um **sistema de simulação** para emissão e classificação de **laudos de laparoscopia**. Os laudos são pontuados após a aplicação de filtros médicos, e o objetivo do sistema é identificar o método de busca mais eficiente para processar grandes volumes de dados de forma rápida.
+Este projeto faz parte no desenvolvimento de um **sistema de simulação** para emissão e classificação de **laudos de laparoscopia**. Os laudos são pontuados após a aplicação de filtros médicos, e o objetivo do sistema é identificar o método de busca mais eficiente para processar grandes volumes de dados de forma rápida.
 
 Os métodos de busca analisados são:
 - **Busca Sequencial**: Percorre todos os elementos linearmente.
@@ -46,10 +46,5 @@ Os tempos de busca para cada método (em milissegundos) foram:
 ## ✅ Conclusão
 A **Árvore AVL** é a melhor opção para um sistema dinâmico de simulação de laudos médicos, proporcionando **eficiência** tanto na busca quanto na inserção, mesmo com o aumento do volume de dados.
 
-## 📚 Referências
-- CORMEN, Thomas H.; LEISERSON, Charles E.; RIVEST, Ronald L.; STEIN, Clifford. *Introduction to Algorithms*. MIT Press, 2009.
-- SEDGEWICK, Robert. *Algorithms in C*. Addison-Wesley Professional, 1990.
 
----
 
-Este arquivo detalha o propósito e a abordagem do projeto de simulação, além de orientar sobre os métodos de busca mais eficientes para a classificação de laudos médicos.
