@@ -1,0 +1,26 @@
+README - Sistema de Simulação de Laudos de Laparoscopia
+Introdução
+Este projeto faz parte de um trabalho acadêmico que desenvolve um sistema de simulação para emitir e classificar laudos de laparoscopia com base em pontuações obtidas após aplicação de filtros médicos. O objetivo é identificar o método de busca mais eficiente para processar grandes volumes de dados simulados de forma rápida, considerando três métodos principais:
+
+Busca Sequencial: Percorre todos os elementos linearmente.
+Busca Binária: Requer dados ordenados e utiliza uma busca em logaritmo.
+Árvore AVL: Uma árvore binária balanceada que permite buscas rápidas mantendo os dados ordenados.
+Metodologia
+Testes foram realizados para avaliar o desempenho desses métodos em diferentes volumes de dados. Para cada método, medimos o tempo de inserção, ordenação (no caso da busca binária) e busca em quatro cenários de tamanho de dados (10.000, 50.000, 100.000 e 500.000 registros).
+
+Resultados
+Os tempos de busca mostram que:
+
+Busca Sequencial cresce linearmente com o aumento do volume de dados.
+Busca Binária mantém tempo de busca constante, mas requer ordenação prévia.
+Árvore AVL apresenta desempenho consistente com tempo de busca constante e inserções eficientes.
+Análise e Discussão
+Busca Sequencial: Simples, mas ineficiente para grandes volumes de dados.
+Busca Binária: Muito rápida, mas com custo adicional de ordenação.
+Árvore AVL: Ideal para sistemas dinâmicos, pois mantém o equilíbrio entre inserção e busca sem necessidade de reordenação constante.
+Conclusão
+Para um sistema dinâmico que precisa processar novos laudos continuamente, a Árvore AVL é a melhor escolha, garantindo eficiência e rapidez na classificação e filtragem dos laudos médicos.
+
+Referências
+CORMEN, Thomas H.; LEISERSON, Charles E.; RIVEST, Ronald L.; STEIN, Clifford. Introduction to Algorithms. MIT Press, 2009.
+SEDGEWICK, Robert. Algorithms in C. Addison-Wesley Professional, 1990.
